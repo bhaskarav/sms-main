@@ -54,5 +54,13 @@
   <build>
     <defaultGoal>install</defaultGoal>
     <finalName>sms-main</finalName>
+	 <pluginManagement>
+      <plugins>
+        <plugin>
+          <artifactId>maven-resources-plugin</artifactId>
+          <version>2.6</version>
+        </plugin>           
+      </plugins>
+    </pluginManagement> 
   </build>
 </project>
