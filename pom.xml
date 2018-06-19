@@ -49,18 +49,14 @@
     <version>2.0</version>
 </dependency>
     
-             
+    <dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.0.2</version>
+</dependency>      
   </dependencies>
   <build>
     <defaultGoal>install</defaultGoal>
     <finalName>sms-main</finalName>
-	 <pluginManagement>
-      <plugins>
-        <plugin>
-          <artifactId>maven-resources-plugin</artifactId>
-          <version>2.6</version>
-        </plugin>           
-      </plugins>
-    </pluginManagement> 
   </build>
 </project>

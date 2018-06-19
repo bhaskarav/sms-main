@@ -1,0 +1,5 @@
+com\rest\resource\controller\StudentVo.class
+com\rest\resource\controller\StudentNotFoundException.class
+com\rest\resource\controller\Error.class
+com\rest\resource\controller\StudentListVo.class
+com\rest\resource\controller\StudentResourceController.class
